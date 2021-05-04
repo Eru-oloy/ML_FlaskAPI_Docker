@@ -36,3 +36,6 @@ la réponse du request sera affichée en format JSON : { "activity": "deco" }
 
 Deuxième façon est d'utiliser le formulaire dans page home (http://localhost:5000) créé en HTML et CSS
 La réponse s'affiche en bas du formulaire
+
+![Capture d’écran du 2021-05-04 13-44-49](https://user-images.githubusercontent.com/47146111/116999268-ad4b2680-acdf-11eb-8395-f3ed2b8b97de.png)
+
