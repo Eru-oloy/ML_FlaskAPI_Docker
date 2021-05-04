@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Maisons Du Monde </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <img src="../static/logo.png" width="60%">
+            <form method="POST">
+                <input type="text" name="height" placeholder="height" required="required"/>
+                <input type="text" name="width" placeholder="width" required="required"/>
+                <input type="text" name="depth" placeholder="depth" required="required"/>
+                <input type="text" name="weight" placeholder="weight" required="required"/>
+                <button type="submit" class="btn btn-primary btn-block btn-large">Predire</button>
+            </form>
+             <br>
+            <br>
+                {{ prediction }}
+        </div>
+    </body>
+</html>
